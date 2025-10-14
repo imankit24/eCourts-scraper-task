@@ -15,6 +15,13 @@ It checks whether a case is listed today or tomorrow, extracts its serial number
   6. Results saved to JSON file
   7. Simple CLI interface
 
+**UI Features:**
+
+  1. Simple and clean interface (no login needed)
+  2. Input either CNR or Case Type + Number + Year
+  3. Option to download result JSON
+  4. Works in real-time using live eCourts data
+
 **#Install dependencies:**
 
 pip install -r requirements.txt
