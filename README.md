@@ -28,13 +28,15 @@ pip install -r requirements.txt
 
 **# Run The Script:**
 
+Run Streamlit UI- streamlit run ecourts_scraper_app.py
+
 Using CNR number: python ecourts_scraper.py --cnr MHJK010000002023
 
 Using Case Type + Number + Year: python ecourts_scraper.py --case_type CR --case_no 100 --case_year 2023
 
 With Cause List Download: python ecourts_scraper.py --cnr MHJK010000002023 --causelist
 
-**#Output:**
+**# Output:**
 
 Displays case status in the console.
 
